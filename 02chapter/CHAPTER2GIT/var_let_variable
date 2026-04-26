@@ -1,0 +1,16 @@
+var a=20
+console.log("The value of global varible=",a)
+
+function Varcheck() {
+    var a=10
+    console.log("The value of local variable=",a )  
+    if(true){
+var a=30        
+console.log("The value of block variable=",a)
+
+
+}
+console.log("The value of local variable=",a )
+}
+Varcheck()
+
