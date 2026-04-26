@@ -1,0 +1,20 @@
+# Common ignores
+node_modules/
+.env
+.vscode/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.class
+*.log
+.DS_Store
+Thumbs.db
+bin/
+obj/
+coverage/
+.idea/
+packages/
+# OS files
+Desktop.ini
+
